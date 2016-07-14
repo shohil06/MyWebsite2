@@ -1,0 +1,146 @@
+video {
+    margin-top: 0px;
+    width: 100%;
+    /*height: 100%;*/
+    position: absolute;
+    z-index: -9999;
+}
+#logo_1{
+  color: whitesmoke;
+  padding-top: 10px;
+  font-size: 40px;
+  font-family: lobster , curvasive;
+}
+.ul1{
+  padding-left: 8px;
+  list-style: none;
+  margin-top: 10px;
+}
+.ul1 li{
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.ul1_li{
+  color: whitesmoke;
+}
+
+
+
+/*
+
+My Custom CSS
+=============
+
+Author:  Shohil Sethia
+Updated: July 2016
+Notes:	 Hand coded for Cognizant
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .nav_link{
+
+   }
+   #button_nav{
+     margin-top:1%;
+     /*margin-right:0%;*/
+     position: absolute;
+     right:2%;
+}
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+/* Small devices (tablets, 768px and up) */
+  @media(max-width: 767px) {
+    video{
+      visibility: hidden;
+    }
+    body{
+      background: url('../../images/bcg.jpg')no-repeat center center fixed;
+      background-size: cover;
+      /*max-width: 100%;
+      height: 100%;*/
+      /*visibility: visible;*/
+    }
+  }
+
+  /* Medium devices (desktops, 992px) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    video{
+      visibility: hidden;
+    }
+    body{
+      background: url('../../images/bcg.jpg')no-repeat center center fixed;
+      background-size: cover;
+      /*max-width: 100%;
+      height: 100%;*/
+      /*visibility: visible;*/
+    }
+  }
+
+  /* For Devices with resolutions width between 993px and 1200px */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    video{
+      visibility: hidden;
+    }
+    body{
+      background: url('../../images/bcg.jpg')no-repeat center center fixed;
+      background-size: cover;
+      /*max-width: 100%;
+      height: 100%;*/
+      /*visibility: visible;*/
+    }
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1201px) {
+    video{
+      visibility: visible;
+    }
+    .image_play img{
+    max-width: 100%;
+    height: 100%;
+    position: fixed;
+    visibility: hidden;
+    }
+  }
+
+/*-------------------------------
+Callout Section
+------------------------------------*/
+
+
+/*-------------------------------
+More-Features Section
+------------------------------------*/
+
+
+/*-------------------------------
+Footer
+------------------------------------*/
