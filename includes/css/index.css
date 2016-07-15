@@ -7,7 +7,8 @@ video {
 }
 #logo_1{
   color: whitesmoke;
-  padding-top: 10px;
+  margin-top: 8px;
+  margin-left: 10px;
   font-size: 40px;
   font-family: lobster , curvasive;
 }
@@ -148,7 +149,7 @@ Footer
 
 .Footer-1{
   background: lightgrey;
-  margin-top: 100%;
+  margin-top: 80%;
   height: 35%;
   border-top: 2px;
   border-top-width: thick;
