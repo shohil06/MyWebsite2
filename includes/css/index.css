@@ -2,7 +2,7 @@ video {
     margin-top: 0px;
     width: 100%;
     /*height: 100%;*/
-    position: absolute;
+    position: fixed;
     z-index: -9999;
 }
 #logo_1{
@@ -121,6 +121,7 @@ Notes:	 Hand coded for Cognizant
   /* Large devices (large desktops, 1200px and up) */
   @media (min-width: 1201px) {
     video{
+
       visibility: visible;
     }
     .image_play img{
@@ -144,3 +145,94 @@ More-Features Section
 /*-------------------------------
 Footer
 ------------------------------------*/
+
+.Footer-1{
+  background: lightgrey;
+  margin-top: 100%;
+  height: 35%;
+  border-top: 2px;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color: grey;
+  opacity: 0.8;
+  /*width: 100%;*/
+}
+
+#footer_col_1{
+  background: url(../../images/Image2.jpg) no-repeat ;
+  background-size: cover;
+  border-top: 8px;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color: black;
+  border-bottom: 5px;
+  border-bottom-width: thick;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  margin-top: 20px;;
+  margin-bottom: 20px;;
+  padding-top: 18%;
+  padding-bottom: 18%;
+  z-index: 100;
+  opacity: 0.9;
+}
+
+#footer_col_1_1{
+  font-family: Lobster, cursive;
+  color: black;
+  text-align: center;
+  background-sze: cover;
+  font-size: 50px;
+  z-index: 100;
+  opacity: 0.8;
+}
+#footer_col_1_2{
+  margin-top: 30%;
+  font-weight: bold;
+}
+.foo_col_2{
+  text-align: left;
+  margin-left: 0px;
+}
+.foo_col_2 h1{
+  font-size: 28px;
+  font-family: lobster , curvasive;
+  color: green;
+  padding-bottom: 5px;
+}
+
+.foo_col_2 ul , li{
+  font-size: 19px;
+  font-family: Indie flower;
+  font-weight: bold;
+  letter-spacing: 2px;
+  list-style: none;
+  padding-left: 0px;
+}
+.foo_col_2 li{
+  padding-bottom: 2%;
+}
+.foo_col_2 a{
+  color: grey;
+  margin-left: 0px;
+}
+.footer1_div5{
+  font-weight: bold;
+  font-size: 14px;
+  font-family: lobster,curvasive;
+}
+#footer1_div5_id6
+{
+  padding-left: 15px;
+  margin-top: 10px;
+  padding-right: 15px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  opacity: 0.4;
+  transition: all 1s ease-in-out;
+}
+#footer1_div5_id6:hover{
+  transition: all 1s ease-in-out;
+  opacity: 0.8;
+}
